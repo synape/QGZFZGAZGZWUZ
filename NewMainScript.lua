@@ -2397,8 +2397,7 @@ GeneralSettings.CreateButton2({
 })
 GeneralSettings.CreateButten2({
     ["Name"] = "RESTART"
-    ["Function"] = GuiLibrary["SelfDestruct"]  wait(2)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/synape/QGZFZGAZGZWUZ/main/NewMainScript.lua", true))()
+    ["Function"] = GuiLibrary["SelfDestruct"]; loadstring(game:HttpGet("https://raw.githubusercontent.com/synape/QGZFZGAZGZWUZ/main/NewMainScript.lua", true))()
       })  
 if shared.VapeIndependent then
 	spawn(function()
